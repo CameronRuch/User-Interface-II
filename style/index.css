@@ -1,1 +1,73 @@
 /* Add CSS styling here */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 50px;
+}
+
+nav button {
+   margin-top: 30px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top h1{
+    font-size: 50px;
+}
+
+.top a{
+    font-size: 35px;
+}
+.img-button {
+    background-image: url("https://picsum.photos/1000/600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    width: 1000px;
+    height: 600px;
+}
+
+footer {
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.row {
+
+}
+.first-row {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.port-element {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+}
